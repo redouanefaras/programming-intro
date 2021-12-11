@@ -1,9 +1,8 @@
-function SumTowNumbers ( n1, n2 ) {
-    if (typeof n1 == "number" && typeof n2 == "number") {
-var sum = n1 + n2;
-console.log (sum);
-} else { console.log ("Please pass a numbers");}
-
+function count() {
+    var x = 0;
+    while (x <5) {
+       console.log("here's the value of x =>", x);
+        x++;
+    }
 }
-
-SumTowNumbers (2,"ui");
+count()
