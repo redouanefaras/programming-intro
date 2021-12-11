@@ -1,9 +1,12 @@
-function fillArray (){
-    var anotherList =[];
-    for (var i=1;i<=10;i++){
-        anotherList.push(i*2)
+function moyen (){
+    var student =[10,12.5,15,20,8];
+    var sum = 0;
+    var moy = 0;
+    for (var i=0;i<student.length;i++){
+        sum = sum+student[i]
     }
-    return anotherList;
+    moy = sum/student.length
+    return moy;
 }
 
-console.log(fillArray ());
+console.log(moyen ());
