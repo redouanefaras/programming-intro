@@ -1,0 +1,17 @@
+#title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.score{
+    display: flex;
+    justify-content: space-around;
+}
+
+.score .country-name {
+    text-align: center;
+}
+
+button{
+    
+}

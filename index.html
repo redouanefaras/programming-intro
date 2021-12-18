@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming Intro</title>
     <style>
-#title {
-    color: brown;
-}
+        #title {
+            color: brown;
+        }
     </style>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
 
-   <h1 id="title">Introduction to Programming</h1>
+    <main>
+        <section>
 
-      <!-- <script src="./app.js"></script> -->
-   <!-- <script src="./function.js"></script> -->
-   <script src="./object.js"></script>
-    
+            <h1 id="title">Let`s predict final score!</h1>
+
+            <div class="score">
+
+                <div>
+                    <img height="300" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/800px-Flag_of_Algeria.svg.png"
+                        alt="alg">
+                    <p class="country-name">Algeria</p>
+                    <p id="scoreDZ"></p>
+                </div>
+
+                <div>
+                    <img height="300"  src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/800px-Flag_of_Tunisia.svg.png"
+                        alt="tun">
+                    <p class="country-name">Tunisia</p>
+                    <p id="scoreTN"></p>
+                </div>
+            </div>
+
+            <button id="prdbtn">Predict</button>
+        </section>
+
+    </main>
+
+    <script src="./random.js"></script>
 </body>
+
 </html>
